@@ -16,7 +16,7 @@ function App() {
   }, []);
 
   return (
-    <body className="bg-black">
+    <body className="bg-emerald-950">
       <Logo />
       <Locations locInfo={locationInfo} setLocationInfo={setLocationInfo} />
       <Residents resd={locationInfo?.residents ?? []} />

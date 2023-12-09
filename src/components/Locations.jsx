@@ -13,7 +13,7 @@ const Locations = ({locInfo, setLocationInfo}) => {
     }
   return (
     <section className="flex flex-col justify-center items-center text-center mx-auto w-[80%] mt-60">
-        <form onSubmit={handleSubmit} className="w-[419px] my-3 border-2 border-green-500">
+        <form onSubmit={handleSubmit} className="w-[319px] my-3 border-2 border-green-500">
           <div className="flex justify-between text-white">
             <input className="shink w-full px-2 bg-transparent" type="number" name="newLocation" placeholder="Type a location ID..." required/>
             <button className="shink w-30 bg-green-800 m-0 py-1 px-5" type="submit">Search</button>

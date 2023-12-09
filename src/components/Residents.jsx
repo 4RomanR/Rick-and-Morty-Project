@@ -21,8 +21,9 @@ const Residents = ({ resd }) => {
   return (
 
       <section className=" max-w-[1000px] mx-auto ">
-        <img className="absolute -bottom-96 translate-x-96 opacity-30 w-[500px]" src="./image/stars.png" alt="stars" />
-        <img className="absolute -bottom-60 translate-x-96 opacity-50 w-[500px]" src="./image/gradient.png" alt="gradient" />
+        <img className="relative bottom-60 opacity-30 w-[250px]" src="./image/stars.png" alt="stars" />
+        <img className="relative bottom-60 opacity-30 w-[250px]" src="./image/gradient.png" alt="gradient" />
+        
         <section className="flex gap-4 flex-wrap place-content-center mx-auto">
           {
             resdCurrentPage.map((resdt) => <ResidentInfo key={resdt} resdURL={resdt} />)

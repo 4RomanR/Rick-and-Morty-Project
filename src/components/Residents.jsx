@@ -29,9 +29,7 @@ const Residents = ({ resd }) => {
           }
 
 
-          <img className="absolute left-56 opacity-50 w-[500px]" src="./image/stars.png" alt="stars" />
-          <img className="absolute left-60 opacity-50 w-[500px]" src="./image/gradient.png" alt="gradient" />
-
+          
 
         </section>
 
